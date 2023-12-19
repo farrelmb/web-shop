@@ -1,0 +1,180 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background-color: rgb(40, 83, 40);
+}
+.logo{
+    justify-content: end;
+    display: flex;
+    font-size: 50px;
+}
+li{
+    list-style-type: none;
+
+}
+
+nav ul{
+    display: flex;
+    gap: 1rem;
+}
+header{
+    display: flex;
+    justify-content: center;
+}
+
+.navbar{
+    background-color: white;
+    padding: 20px 3rem;
+    display: flex;
+    justify-content: space-between;
+    height: 50px;
+    border-radius: 0px 0px 20px 20px;
+    width: 80%;
+    align-items: center;
+}
+h1{
+    color: white;
+    font-size: 50px;
+}
+/* .deskripsi{
+    margin-left: 100px;
+    display: flex;
+    align-items: center;
+}
+.deskripsi img{
+    margin-left: 300px;
+    margin-top: 100px;
+}
+.shp{
+    color: rgb(75, 75, 177);
+    background-color: white;
+    width: 100px;
+    text-align: center;
+    margin-left: 100px;
+    border-radius: 20px;
+} */
+
+.atas{
+    display: flex;
+    justify-content: space-between;
+    margin: 16px 4rem;
+}
+.atas-poto img{
+    border-radius: 100px 0px 100px 0px;
+    margin-top: 150px;
+   
+}
+.atas .deskripsi img{
+    border-radius: 50% 50% 0px 0px;
+}
+.atas .deskripsi button{
+    border-radius: 20px;
+    width: 30%;
+    height: 20%;
+    margin-bottom: 30px;
+}
+
+/* ke2 */
+.kedua{
+    background-color: aliceblue;
+    padding: 2rem 4rem;
+}
+
+.kedua .kata h2 {
+    display: flex;
+    justify-content: center;
+}
+.kedua .kata h4 {
+    display: flex;
+    justify-content: center;
+    padding-bottom: 25px;
+}
+.tigaft{
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+}
+.ft1{
+    width: 330px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 20px;
+}
+.ft1 img {
+    width: 100px;
+}
+.ft1 h4{
+    font-size: 20px;
+}
+
+/* ke tiga */
+.ketiga{
+    background-color: wheat;
+    padding: 2rem 4rem;
+}
+.teks h2{
+    display: flex;
+    justify-content: center;
+    padding: 30px 0;
+    font-size: 2rem;
+}
+.sejajar{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+    justify-content: center;
+    color: aliceblue;
+}
+.card-teks{
+    padding: 10px 20px;
+}
+
+.card {
+    background-color: rgb(20, 66, 20);
+    border-radius: 20px;
+}
+.card .img img{
+    border-radius: 20px 20px 0 0;
+}
+/*  */
+.frl button{
+    border-radius: 20px;
+    width: 100px;
+    height: 20px;
+    margin-bottom: 30px;
+    
+}
+.keempat{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    padding: 20px 20px;
+    background-color: white;
+}
+.gmbr{
+    display: flex;
+    justify-content: center;
+}
+
+/* footer */
+footer{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    background-color: black;
+    color: white;
+    padding: 20px;
+    gap: 20px;
+}
+.ptm span{
+    color: greenyellow;
+}
+.cp{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-left: 100px;
+}
